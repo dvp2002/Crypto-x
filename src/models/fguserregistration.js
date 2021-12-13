@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const userSchema = new mongoose.Schema({
+const fguserSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true
@@ -29,6 +29,6 @@ const userSchema = new mongoose.Schema({
 });
 
 
-const Register = new mongoose.model("Register", userSchema);
+const fgRegister = new mongoose.model("fgRegister", fguserSchema);
 
-module.exports = Register;
+module.exports = fgRegister;
