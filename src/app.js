@@ -2,18 +2,27 @@ const express = require("express");
 const path = require("path");
 const bcrypt = require("bcrypt");
 const app = express();
+
+//middleware
+
 const cookieParser = require("cookie-parser");
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json());
 app.use(cookieParser());
 
+//Stripe keys
+
 const PUBLISHABLE_KEY = "pk_test_51JnI2dSD4liG97atq1QsvxJGCEtCXWme3H5eBCQV1D30Sl7e2R0Ojprdjbkg1ValIuIRf0NdwQ9v1fx4IrdxjK0B00VWHrIyRv"
 const SECRET_KEY = "sk_test_51JnI2dSD4liG97atmLjEc3uiSywW8c4YMvx0gjfBi0a6ArlXmlVoZ9BgaMjDNmTb3W8PnzkTMGLnqErltXP3AY0O00yUkcxyPY"
 const stripe = require("stripe")(SECRET_KEY);
 
+//google keys
+
 const {OAuth2Client} = require('google-auth-library');
 const CLIENT_ID = '658161400052-6bmotko4se9kti3cco47kniufr5cv9kn.apps.googleusercontent.com';
 const client = new OAuth2Client(CLIENT_ID);
+
+//databse generation
 
 require("./db/conn");
 
@@ -21,10 +30,14 @@ const Register = require("./models/userregistration");
 const gRegister = require("./models/guserregistration");
 const fgRegister = require("./models/fguserregistration");
 
+const Tatum = require("@tatumio/tatum");
+
 const port = process.env.PORT || 8000;
 app.set("view engine", "hbs");
 
-app.get('/', (req,res) => {
+//get and post methods for working on the app
+
+app.get('/', async(req,res) => {
     res.render("index.hbs");
 });
 
@@ -52,6 +65,16 @@ app.post('/register', async (req,res) => {
             age: req.body.age,
         })
         const registered = await registerUser.save();
+        const {generateWallet, Currency} = Tatum;
+        const btcWallet = await generateWallet(Currency.BTC, false);
+        console.log(btcWallet);
+        const {generateAddressFromXPub} = Tatum;
+        const xpub='xpub6E6Hro3bzSnTc8KyhTJZWF44za9VDg3yBmhmtdy2NDJbyzHLWzrD5wEgenFYgPKeWKk9LMRp1r7E9uU9taGpL8zZ83rX7F5genPjKjuuryz'
+        const btcAddress = await generateAddressFromXPub(Currency.BTC, false, xpub, 1);
+        console.log(btcAddress);
+        const {generatePrivateKeyFromMnemonic} = Tatum;
+        const btcPrivateKey = await generatePrivateKeyFromMnemonic(Currency.BTC, false, "<<mnemonic>>", 1);
+        console.log({key: btcPrivateKey});
         res.redirect("/login");
         }
         else

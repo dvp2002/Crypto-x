@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tatumio/tatum": "^1.29.32",
     "alert": "^5.0.10",
     "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.5",

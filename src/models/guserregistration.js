@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+//creating Schema to store entered information
+
 const guserSchema = new mongoose.Schema({
     name: {
         type: String,
