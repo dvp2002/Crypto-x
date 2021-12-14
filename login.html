@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>login</title>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="">
+        </div>
+
+        <ul>
+            <li class="list"><a href="#home">Home </a></li>
+            <li class="list"><a href="#services-container">Services</a></li>
+            <li class="list"><a href="#client-section">Our Clients</a></li>
+            <li class="list"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="loginpage">
+        <div class="image">
+            <img src="login.css/images/loginimage.png" alt="">
+        </div>
+        <div class="login">
+            <h1 id="welcometag">welcome back :)</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit?</p>
+            <form action="/login" method="POST">
+
+                <div class="emailbox">
+                    <div class="emailimg">
+                        <img src="login.css/images/emailimg.png" alt="">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="passwordbox">
+                    <div class="lockimg">
+                        <img src="login.css/images/lockimg.png" alt="">
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                </div>
+                <div class="extra">
+                    <input type="checkbox" id="Rememberme" name="Rememberme" value="">
+                    <label for="vehicle1"> Remember me</label><br>
+                    <h4>Forgot password?</h4>
+                </div>
+                <div class="buttons">
+                    <button class="button" type="submit">Login</button>
+                   
+                    <button class="button"><a href="/register">Create account</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

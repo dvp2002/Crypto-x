@@ -21,7 +21,7 @@ html{
 }
 #navbar{
     /* position: absolute;  */             /*?? aisa karne se navbar ki height kam kaise hui time 22min*/
-    position: relative; 
+    position: sticky; 
     top: 0px;  
     left: 0px;              /* phle absolute kiya jisse parent(body)ke respect me top 0; and upar(z-index ke karan) aa gaya aur isne kudh ki jagah nahi li bas parent ke relative me baith gaya chahe koi ho uske upar. fir vapas relative karke isko fix bitha diya vahi pe*/
     
@@ -76,392 +76,109 @@ background-color: white;
 }
 
 
-/* HOME SECTION  */
-/* #home::before{
-    content: "";
-    background: url('public/bg image gif.gif') no-repeat center center/cover;
-    position: absolute;                  /* ???????so that we can use z index and other benifit????????????*/
-    /* top: 0px;
-    left:0px;          /* background matlab piche jayegi par position to deni hi hogi na piche pure page me kaha , by default 0 0 h ; */
-    /* height: 465px;
-    width: 100%;         
-    z-index: -1;
-    opacity: 0.89;    */
-
-/* } */
-#home{
+.loginpage{
     display: flex;
-    flex-direction: row;
-    padding: 122px 0px 142px 0px;
-    align-items: center;
-    justify-content: center;
-    height: 540px;
-    width: 100%;
 }
 
-
-/* #home h1{
-    display: inline-block;
-    color: black;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-}
-#home p{
-    display: inline-block;
-    color: black;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Bree Serif', serif;
-}
-
-.maal{
-
+.login{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-} */
-
-/* .btn{
-    display: inline-block;
-    width: 137px;
-    margin: 18px 0px 0px 116px;
-
-} */
-
-
-.homemaal{
-    position: relative;
-    top: 64px;
-    left: -15vw;
-    flex-wrap: wrap;
-    max-width: 60%;
-    height: auto;
-}
-
-.img{
-   max-width: 100%;
-   height: auto;
-    
-}
-.maal{
-    position: absolute;
-    top: 201px;
-    right: 85px;
-    bottom: 47px;
-    left: 129px;
-    flex-wrap: wrap;
-}
-
-
-/* NEWSLETTER SECTION  */
-#newsletter{
-    display: flex;
-    height: 417px;
-    width: 100%;
-    margin-top: 110px;
  
 }
-.newslettermaal{
+
+#welcometag {
+font-family: 'Nunito', sans-serif;;
+margin: 64px 0px 40px 0px;
+}
+
+.login p {
+    margin: -9px 0px 55px 0px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+}
+
+.emailimg img{
+    height: 49px;
+    width: 49px;
+    z-index: -4;
+   
+}
+
+.emailbox{
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    padding: 15px 15px;
+}
+
+.lockimg{
+    margin: 1px 10px -8px -6px;
+}
+.emailimg{
+    margin: 1px 10px -8px -6px;
+}
+
+.lockimg img{
+    height: 45px;
+    width: 45px;
+}
+
+.password{
     display: flex;
     flex-direction: column;
 }
-.subscribe{
+
+.passwordbox{
     display: flex;
-  flex-direction: column;
-  padding-left: 7%;
-  width: 93%;
-  height: 417px;
+    flex-direction: row;
+    padding: 15px 15px;
+
 }
 
-.subscribe h1{
-    margin-top: 44px;
-    margin-bottom: 15px;
-}
-.subscribe p{
-    margin-bottom: 73px;
-}
-.inputemail{
+.extra{
     display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 10px 1px 10px 20px;
+    border-radius: 13px;
 }
-.subscribe button {
+
+.extra label{
+    margin: 10px 98px 12px 5px
+}
+
+.extra h4{
+    margin: 10px 10px;
+    font-size: 17px;
+}
+
+.button {
     transition-duration: 0s;
     border: none ;
     border-radius: 37px;
     background-color: #E8E8E8;
-    width: 20%;
+    width: 129px;
     height: 59px;
     color: black;
     font-size: 16px;
     margin: 8px 8px 10px 0px;
     
   }
+  .button a{
+      color: black;
+      text-decoration: none;
+  }
 
+  .button a:hover{
+    color: white;
+    background-color: #0066FF;
+}
   
-  .subscribe button:hover {
-    background-color: #0066FF; 
+  .button:hover {
+    background-color: #0066FF; /* Green */
     color: white;
   }
-
-  .subscribe input{
-    height: 40px;
-    width: 50%;
-    margin-right: 20px;
-  }
-
-  .inputemail{
-      display: flex;
-      align-items: center;
-  }
-
-.newslettermaal{
-    margin-right: 93px;
-}
-.newslettermaal h1{
-    margin-right: 93px;
-}
-
-/* ABOUT SECTION  */
-#about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding-top: 57px;
-    padding-bottom: 169px;
-    height: 274px;
-    background-color: gray;
-    
-  
-}
-
-#about h1{
-    margin: 27px 0px 41px 0px;
-}
-
-.aboutmaal{
-    margin: 0px 159.6px;
-    display: flex;
-    /* align-items: center; */
-    width: 64%;
-    justify-content: space-around;
-
-}
-#about img{
-    height: 60px;
-    width: 80px;
-}
-
-.feature{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.feature h3{
-    margin: 30px
-}
-
-.feature p{
-    margin-bottom: 60px
-}
-
-/* JOIN US section  */
-
-#joinus{
-    display: flex;
-    height: 260px;
-    width: 100%;
-    background-color: #3c30301f;
-    margin-top: 51px;
-    margin-bottom: 90px;
-    position: relative;
-}
-
-.img2 img{
-    top: -41px;
-    right: 0px;
-    height: 166%;
-    position: absolute;
-}
-.img1 {
-    display: inline-block;
-    width: 17%;
-}
-.img1 img{
-   width: 100%;
-   height: 100%;
-
-}
-.joinusmaal{
-    display: flex;
-    flex-direction: column;
-    width: 42%;
-    margin-top: 50px;
-    align-items: center;
-}
-
-.joinusmaal h1{
-    /* margin: 10px 345px 48px 0px */
-}
-.joinbtn{
-    display: flex; 
-    align-items: center;
-  
-}
-.joinbtn h3{
-    /* margin: 23px 290px 22px 4px */
-}
-.joinbtn button{
-    margin: 5px 24px 0px 0px;
-  
-        transition-duration: 0s;
-        border: none ;
-        border-radius: 37px;
-        background-color: #E8E8E8;
-        width: 129px;
-        height: 59px;
-        color: black;
-        font-size: 16px;    
-}
-
-/* SERVICES SECTION  */
-#services{
-    margin: 1% 12%;
-    display: flex;
-}
-#services .box{
-   
-    padding: 34px;
-    margin: 3px 1px 48px 0px;
-   
-   
-    
-
-}
-#services .box img{
-    height: 175px;
-    display: block;
-    margin: auto;
-}
-
-#services .box p{
-    font-family: 'Bree Serif', serif;
-}
-
-
-/* CLINT section  */
-#client-section{
-    /* height: 344px;                  1:30 pe isko hata rhe h taki apne aap ye relative h to jitni jagah chahiiye le le aur logo bahar na nikle */
-    position: relative;
-   
-}
-#client-section::before{
-    content: "";
-    position: absolute;
-    background: url('../bg.png.jpg');
-    width: 100%;
-    height: 100%;
-    z-index: -3;
-    opacity: 0.3;
-}
-#clients{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 129px;
-}
-.client-item{
-    padding: 34px 32px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-        background-color: #f0edfa;
-}
-
-#clients img{
-height: 100px;
-position: relative;
-z-index: 1;                     /* z index taki navbar se niche aaye par client bgimg se upar hi */
-}
-
-#client-section h1{
-    padding: 80px 10px 65px 10px;
-}
-/* CONTACT SECTION  */
-#contact{
-    position: relative;
-    
-}
-#contact::before{
-content: "";
-position: absolute;
-width: 100%;
-height: 100%;
-z-index: -1;
-opacity: 0.7;
-background: url('../contact.jpg.jpg') no-repeat center center/cover;
-}
-
-#contact-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom:34px;
-}
-#contact-box input,
-#contact-box textarea{
-    width: 100%;
-    padding: 0.5rem;
-    border-radius: 9px;
-    font-size: 1.1rem;
-}
-
-#contact-box form{
-    width: 40%;
-    
-}
-#contact-box label{
-    font-size: 1.3rem;
-    font-family: 'Bree Serif', serif;
-
-}
-
-
-footer{
-    background: black;
-    color: white;
-    padding: 9px 20px;
-    height: 73px;
-}
-
-
-
-
-
-
-
-
-
-/* utility class  */
-.h-primary{
-    font-size: 3.8rem;
-    padding: 12px;
-    font-family: 'Bree Serif', serif;
-}
-.h-secondary{
-    font-size: 2.3rem;
-    padding: 12px;
-    font-family: 'Bree Serif', serif;
-}
-.btn{
-    padding: 6px 20px;
-    border: 2px solid white;
-    background-color: brown;
-    margin: 17px;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.center{
-    text-align: center;
-}
