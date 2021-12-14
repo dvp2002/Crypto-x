@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+     <link rel="stylesheet" media="screen and (max-width:990px)" href="public/fone.css">
+    <link rel="stylesheet" href="../public/style.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="public/images/logo.png" alt="">
+        </div>
+
+        <ul>
+            <li class="list"><a href="#home">Home </a></li>
+            <li class="list"><a href="#services-container">Services</a></li>
+            <li class="list"><a href="#client-section">Our Clients</a></li>
+            <li class="list"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+
+        <style>
+            #home::before {
+                content: "";
+                background: url('public/images/final.jpg') no-repeat center center/cover;
+                position: absolute;
+                /* ???????so that we can use z index and other benifit????????????*/
+                top: 0px;
+                left: 0px;
+                /* background matlab piche jayegi par position to deni hi hogi na piche pure page me kaha , by default 0 0 h ; */
+                height: 710px;
+                width: 100%;
+                z-index: -1;
+                opacity: 0.8;
+        </style>
+
+
+        <div class="homemaal">
+            <div class="img">
+                <img src="public/images/bgpzm.png" alt="">
+            </div>
+            <div class="maal">
+                <h1 class="h-primary">Wazirax</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis accusantium a quae sapiente!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,.</p>
+                <div class="button">
+                    <button class="btn">sign up</button>
+                    <button class="btn">sign in</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="newsletter">
+         <div class="subscribe">
+            <h1>bla bla bla</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, maiores!</p>
+            <div class="inputemail">
+            <input type="email" id="email" name="email" required>
+                  <button type="submit">Login</button>
+            </div>
+        </div>
+
+        <div class="newslettermaal">
+            <h1>bla bla bla</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio ex quidem deleniti, sapiente quos
+                laudantium quo repellat fuga enim ipsum tempora error animi dicta? Facere eaque aspernatur tempore ullam
+                doloribus enim sed quos numquam porro ipsa? Nihil ea dolorum velit provident laboriosam impedit
+                doloribus suscipit, exercitationem odit mollitia ab aperiam?</p>
+        </div>
+       
+
+    </section>
+
+    <section id="about">
+        <h1>bla bla bla bla bla</h1>
+        
+        <div class="aboutmaal">
+            <div class="feature">
+                <img src="public/images/logo.png" alt="">
+                <h3>abcd</h3>
+                <div class="description">
+                    Lorem ipsum dolor sit amet.
+                    <br>
+                    Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+              <div class="feature">
+                <img src="public/images/logo.png" alt="">
+                <h3>abcd</h3>
+                <div class="description">
+                    Lorem ipsum dolor sit amet.
+                    <br>
+                    Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+              <div class="feature">
+                <img src="public/images/logo.png" alt="">
+                <h3>abcd</h3>
+                 <div class="description">
+                    Lorem ipsum dolor sit amet.
+                    <br>
+                    Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+       <section id="client-section">
+        <style>
+            #client-section::before {
+                content: "";
+                position: absolute;
+                background: url('../bg.png.jpg');
+                width: 100%;
+                height: 100%;
+                z-index: -3;
+                opacity: 0.3;
+            }
+        </style>
+        <h1 class="h-primary center">Top crypto</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="public/images/logo1.png" alt="our client">
+
+                <h2 class="secondary">xyz</h2>
+                <h2 class="secondary">xyz</h2>
+            </div>
+            <div class="client-item">
+                <img src="public/images/logo2.png" alt="our client">
+                <h2 class="secondary">xyz</h2>
+                <h2 class="secondary">xyz</h2>
+            </div>
+            <div class="client-item">
+                <img src="public/images/logo3.png" alt="our client">
+                <h2 class="secondary">xyz</h2>
+                <h2 class="secondary">xyz</h2>
+            </div>
+            <div class="client-item">
+                <img src="public/images/logo4.png" alt="our client">
+                <h2 class="secondary">xyz</h2>
+                <h2 class="secondary">xyz</h2>
+            </div>
+            <div class="client-item">
+                <img src="public/images/logo5.png" alt="our client">
+                <h2 class="secondary">xyz</h2>
+                <h2 class="secondary">xyz</h2>
+            </div>
+            <div class="client-item">
+                <img src="public/images/logo3.png" alt="our client">
+                <h2 class="secondary">xyz</h2>
+                <h2 class="secondary">xyz</h2>
+            </div>
+
+    </section>
+    
+    <section id="services-container">
+        <h1 class="h-primary center">Our Team</h1>
+        <div id="services">
+            <div class="box">
+                <img src="public/images/logo1.png" alt="">
+                <h2 class="h-secondary center">Dev</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aperiam iste id
+                    vero debitis error, impedit beatae, dolorum ipsa quisquam, explicabo nisi veritatis quis animi
+                    culpa? Iusto quos animi obcaecati!!</p>
+            </div>
+            <div class="box">
+                <img src="public/images/logo1.png" alt="">
+                <h2 class="h-secondary center">Divyanshu gautam</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolorem tempore
+                    eum impedit, nihil omnis adipisci earum! Nostrum vero, amet eveniet perferendis molestias quasi
+                    repellendus maiores iste odio nobis dicta!</p>
+            </div>
+            <div class="box">
+                <img src="public/images/logo1.png" alt="">
+                <h2 class="h-secondary center">Priyanshu agarwal</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at explicabo aut
+                    ratione ea accusamus debitis eos modi, dolorem blanditiis sequi mollitia qui vero ut temporibus
+                    dolorum fugit voluptatum corrupti.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="joinus">
+       
+            <div class="img1">
+                <img src="public/images/joinus77.png" alt="">
+            </div>
+        <div class="joinusmaal">
+            <h1>join cryptotrade now</h1>
+            <div class="joinbtn">
+                 <button class="button"><a href="/register">Create account</a></button>
+                 <h3>already a member? sign in!</h3>
+            </div>
+        </div>
+         <div class="img2">
+            <img src="public/images/joinusbg6.png" alt="">
+        </div>
+        
+    </section>
+
+ 
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="eyemail">Email:</label>
+                    <input type="email" name="name" id="eyemail" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="fone">phone number:</label>
+                    <input type="phone" name="name" id="fone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="massage">Message for us:</label>
+                    <textarea name="message for us" id="massage" cols="30" rows="6"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            copyright &copy; www.myonlinemeal.com.All rights reserved!
+        </div>
+    </footer>
+
+</body>
+
+</html>

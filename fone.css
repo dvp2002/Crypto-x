@@ -1,0 +1,127 @@
+/* navigation section */
+#navbar{
+    flex-direction: column;
+    }
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 7px;
+        padding-bottom: 4px;
+    }
+    #logo img{
+        height: 35px;
+    }
+    
+    
+    
+    
+    /* HOME section */
+    #home{
+    height: 418px;
+    padding-bottom: 3px !important;
+    }
+    #home::before{
+    height: 513px;
+    }
+    
+    #home p{
+        font-size: 13px;
+    }
+
+    .img{
+        display: none;
+    }
+    .maal{
+        position: relative !important;
+       top: 0px !important;
+       left: 0px !important;
+       
+    }
+    
+    .homemaal{
+        top: -159px !important;
+    }
+    
+    .subscribe{
+        padding-bottom: 54px;
+    }
+   
+    /* NEWSLETTER section  */
+    #newsletter{
+        flex-direction: column-reverse;
+    }
+    
+    /* ABOUT US SECTION  */
+    #about{
+        height: auto !important;
+    }
+  .aboutmaal{
+      flex-direction: column;
+  }
+    
+    
+    /* SERVICES section */
+    #services{
+        flex-direction: column;
+    }
+
+    .box img{
+        height: 150px !important;
+    }
+    
+ 
+    
+    
+    
+    /* CLIENT SECTION  */
+    #clients{
+        /* overflow: hidden;       aisa karne se overflow hone par baki hissa chip jayega and utna hi dhikhega jitna aa rha  h range me , mota mota saltaya h isse kam abhi */
+        flex-wrap: wrap;
+    }
+    #clients img{
+        /* width: 66px;       before media query height li thi image ki to ab bhi vo hi lenge  */
+        height: 66px;
+        padding: 2px 6px;
+    }
+    .client-item{
+        padding: 14px 47px;
+    }
+    
+    /* join us section  */
+    .img1 img{
+        height: 100%;
+    }
+    .img2{
+        display: none;
+    }
+
+    #joinus{
+        justify-content: space-evenly;
+    }
+    
+    
+    
+    /* CONTACT US  */
+    #contact-box form{
+        width: 80%;
+    }
+    
+    
+    
+    
+    
+    /* FOOTER  */
+    
+    
+    /* utility class  */
+    .h-primary{
+        font-size: 26px;
+    }
+    
+    .btn{
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+
+    
+    
+    
