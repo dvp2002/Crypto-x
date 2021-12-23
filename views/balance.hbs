@@ -4,17 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Balance</title>
 </head>
 <body>
-    <h1>This is the Homepage!</h1><br>
-    <a href="/register">Register here</a>
-    <a href="/login">Login here</a>
-    <a href="/logout">Logout</a>
-    <a href="/cashwallet">Pay here!</a>
-
+    <h3 id="myBal"></h3>
     <script>
-        alert("{{ success }}");
+        const bal = {{ balance }};
+        document.getElementById("myBal").innerHTML = "Your Current Balance (in ₹) is: " + bal;
     </script>
 </body>
 </html>

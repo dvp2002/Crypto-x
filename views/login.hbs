@@ -22,7 +22,7 @@
         <label for="password">Password</label>
         <input type="password" id="password" name="password" required>
     </div>
-    <button type="submit">Login</button>
+    <button type="submit" onclick="onSubmit()">Login</button>
     </form>
     <script>
         function onSignIn(googleUser) {
@@ -48,7 +48,8 @@
             console.log('User signed out.');
             });
         }
-</script>
+    </script>
+
     <a href="/register">Register here</a>
 </body>
 </html>

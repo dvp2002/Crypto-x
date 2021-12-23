@@ -21,11 +21,17 @@ const userSchema = new mongoose.Schema({
     },
     address: {
         type: String,
+        required: true
     },
     mobile: {
         type: String,
+        required: true
     },
     age: {
+        type: Number,
+        required: true
+    },
+    balance: {
         type: Number,
     }
 });

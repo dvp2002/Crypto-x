@@ -16,6 +16,9 @@ const guserSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    balance: {
+        type: Number
+    }
 })
 
 const gRegister = new mongoose.model("gRegister", guserSchema);
