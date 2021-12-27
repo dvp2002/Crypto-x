@@ -1,0 +1,28 @@
+
+<%- include('partials/header') %>
+<div class="jumbotron text-center">
+    <div class="container">
+      <i class="fas fa-wallet fa-6x"></i>
+      <h1 class="display-3">Welcome to Payment Gateway !</h1>
+      <hr>
+      
+      <hr>
+      <form action = "payment.ejs" method = "post">
+        <script
+        src="//checkout.stripe.com/v2/checkout.js"
+        class="stripe-button"
+        data-key="<%= key %>" 
+        data-amount="<%= money %>" 
+        data-currency="inr" 
+        data-name="CRYPTO-X" 
+        data-description="ADD MONEY TO WALLET" 
+        data-locale="auto" > 
+        </script> 
+          </form>
+          <br>
+        
+    </div>
+  </div>
+
+    <%- include('partials/footer') %>
+    

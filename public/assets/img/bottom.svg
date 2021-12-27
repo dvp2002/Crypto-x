@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="185" height="50" viewBox="0 0 185 50" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs><style id="58a8f7e5-389c-43b1-bb17-b5436451b744" data-type="fontFaceStyle">/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiGyp8kv8JHgFVrLPTucXtAKPY.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiGyp8kv8JHgFVrLPTufntAKPY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiGyp8kv8JHgFVrLPTucHtA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLFj_Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLFj_Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+</style>
+
+</defs>
+<g transform="matrix(1 0 0 1 92.5 25)" id="workarea"  >
+<rect style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-92.5" y="-25" rx="0" ry="0" width="185" height="50" />
+</g>
+<g transform="matrix(1 0 0 1 113.87 25)" style="" id="a6b10f4b-989d-4bae-8859-4f4e1bd67377"  >
+		<text xml:space="preserve" font-family="Poppins" font-size="24.25733294419292" font-style="normal" font-weight="700" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(126,211,33); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-65.25" y="7.62" >CRYPTO-X</tspan></text>
+</g>
+<g transform="matrix(0.07 0 0 0.07 27.32 25.07)" id="cdb83157-2967-43f9-8a15-e3cdf684af32"  >
+<g style="" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(1 0 0 1 -0.5 -0.5)" id="Capa_1"  >
+<linearGradient id="SVGID_SVGID_1__1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="256" y1="452" x2="256" y2="60">
+<stop offset="0%" style="stop-color:rgb(255,229,154);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(255,255,213);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_SVGID_1__1); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-256, -256)" d="M 437 241 L 376 241 C 375.686 241 375.379 241.028 375.07 241.047 C 372.334 219.127 363.663 199.027 350.71999999999997 182.406 C 350.965 182.19 351.215 181.981 351.44899999999996 181.747 L 393.871 139.32500000000002 C 399.72999999999996 133.466 399.72999999999996 123.97300000000001 393.871 118.11400000000002 C 388.012 112.25500000000002 378.519 112.25500000000002 372.65999999999997 118.11400000000002 L 330.23799999999994 160.536 C 330.00299999999993 160.77100000000002 329.79299999999995 161.02100000000002 329.57699999999994 161.267 C 312.96099999999996 148.332 292.86699999999996 139.665 270.95199999999994 136.93 C 270.97099999999995 136.621 270.99899999999997 136.314 270.99899999999997 136 L 270.99899999999997 75 C 270.99899999999997 66.709 264.28999999999996 60 255.99899999999997 60 C 247.70799999999997 60 240.99899999999997 66.709 240.99899999999997 75 L 240.99899999999997 136 C 240.99899999999997 136.314 241.02699999999996 136.621 241.04599999999996 136.93 C 219.13099999999997 139.66500000000002 199.03799999999995 148.332 182.42099999999996 161.267 C 182.20499999999996 161.021 181.99499999999998 160.771 181.75999999999996 160.536 L 139.33799999999997 118.114 C 133.47899999999996 112.25500000000001 123.98599999999996 112.25500000000001 118.12699999999997 118.114 C 112.26799999999997 123.973 112.26799999999997 133.466 118.12699999999997 139.325 L 160.54899999999998 181.74699999999999 C 160.783 181.981 161.033 182.19 161.278 182.40599999999998 C 148.33599999999998 199.027 139.665 219.12699999999998 136.928 241.04699999999997 C 136.619 241.02799999999996 136.31199999999998 240.99999999999997 135.998 240.99999999999997 L 75 240.99999999999997 C 66.709 240.99999999999997 60 247.70899999999997 60 255.99999999999997 C 60 264.29099999999994 66.709 271 75 271 L 136 271 C 136.314 271 136.621 270.972 136.93 270.953 C 139.666 292.873 148.33700000000002 312.97299999999996 161.28 329.594 C 161.035 329.81 160.785 330.019 160.551 330.253 L 118.12899999999999 372.67499999999995 C 112.27 378.53399999999993 112.27 388.02699999999993 118.12899999999999 393.88599999999997 C 123.98899999999999 399.74499999999995 133.481 399.74499999999995 139.33999999999997 393.88599999999997 L 181.76199999999997 351.46399999999994 C 181.99699999999999 351.2289999999999 182.20699999999997 350.9789999999999 182.42299999999997 350.73299999999995 C 199.039 363.66799999999995 219.13299999999998 372.3349999999999 241.04799999999997 375.06999999999994 C 241.02899999999997 375.37899999999996 241.00099999999998 375.6859999999999 241.00099999999998 375.99999999999994 L 241.00099999999998 436.99999999999994 C 241.00099999999998 445.29099999999994 247.70999999999998 451.99999999999994 256.001 451.99999999999994 C 264.292 451.99999999999994 271.001 445.29099999999994 271.001 436.99999999999994 L 271.001 375.99999999999994 C 271.001 375.6859999999999 270.97299999999996 375.37899999999996 270.95399999999995 375.06999999999994 C 292.86899999999997 372.3349999999999 312.96199999999993 363.66799999999995 329.57899999999995 350.73299999999995 C 329.79499999999996 350.9789999999999 330.00499999999994 351.2289999999999 330.23999999999995 351.46399999999994 L 372.6619999999999 393.88599999999997 C 378.52199999999993 399.74499999999995 388.0139999999999 399.74499999999995 393.87299999999993 393.88599999999997 C 399.73199999999997 388.027 399.7319999999999 378.534 393.87299999999993 372.67499999999995 L 351.4509999999999 330.25299999999993 C 351.2169999999999 330.01899999999995 350.9669999999999 329.80999999999995 350.7219999999999 329.59399999999994 C 363.66399999999993 312.97299999999996 372.3349999999999 292.87299999999993 375.07199999999995 270.9529999999999 C 375.381 270.9719999999999 375.68799999999993 270.99999999999994 376.00199999999995 270.99999999999994 L 437.00199999999995 270.99999999999994 C 445.29299999999995 270.99999999999994 452.00199999999995 264.29099999999994 452.00199999999995 255.99999999999994 C 452.00199999999995 247.70899999999995 445.29099999999994 240.99999999999994 436.99999999999994 240.99999999999994 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -0.5 -0.5)" id="Capa_1"  >
+<linearGradient id="SVGID_SVGID_2__2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="256" y1="391.529" x2="256" y2="120.471">
+<stop offset="0%" style="stop-color:rgb(253,89,0);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(255,222,0);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_SVGID_2__2); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-256, -256)" d="M 256 90 C 280.814 90 301 69.814 301 45 C 301 20.186000000000007 280.814 0 256 0 C 231.18599999999998 0 211 20.186 211 45 C 211 69.814 231.186 90 256 90 z M 256 422 C 231.186 422 211 442.186 211 467 C 211 491.814 231.186 512 256 512 C 280.81399999999996 512 301 491.814 301 467 C 301 442.186 280.814 422 256 422 z M 90 256 C 90 231.186 69.814 211 45 211 C 20.186000000000007 211 0 231.186 0 256 C 0 280.81399999999996 20.186 301 45 301 C 69.814 301 90 280.814 90 256 z M 467 211 C 442.186 211 422 231.186 422 256 C 422 280.81399999999996 442.186 301 467 301 C 491.814 301 512 280.814 512 256 C 512 231.18599999999998 491.814 211 467 211 z M 139.33999999999997 139.311 C 156.85999999999999 121.77700000000002 156.85999999999999 93.242 139.33999999999997 75.70700000000001 L 139.33999999999997 75.69200000000001 C 121.79099999999997 58.17200000000001 93.28499999999997 58.114000000000004 75.67799999999997 75.69200000000001 C 58.12899999999997 93.24100000000001 58.12899999999997 121.77600000000001 75.67799999999997 139.32500000000002 C 93.21299999999997 156.89000000000001 121.82899999999998 156.88000000000002 139.33999999999997 139.311 z M 372.65999999999997 372.68899999999996 C 355.14 390.22299999999996 355.14 418.758 372.65999999999997 436.30699999999996 C 390.27399999999994 453.89099999999996 418.76 453.84 436.32199999999995 436.30699999999996 C 453.8709999999999 418.758 453.8709999999999 390.22299999999996 436.32199999999995 372.674 C 418.77299999999997 355.097 390.15 355.111 372.65999999999997 372.68899999999996 z M 75.67799999999994 372.67499999999995 C 58.12899999999994 390.22399999999993 58.12899999999994 418.75899999999996 75.67799999999994 436.30799999999994 C 93.21299999999994 453.87199999999996 121.82899999999995 453.86299999999994 139.33999999999995 436.29299999999995 C 156.85999999999996 418.75899999999996 156.85999999999996 390.22399999999993 139.33999999999995 372.67499999999995 C 121.79099999999994 355.14099999999996 93.28499999999994 355.11099999999993 75.67799999999994 372.67499999999995 z M 436.32199999999995 139.32499999999996 C 453.8709999999999 121.77599999999995 453.8709999999999 93.24099999999996 436.32199999999995 75.69199999999995 C 418.7149999999999 58.09899999999995 390.20899999999995 58.15799999999995 372.65999999999997 75.69199999999995 L 372.65999999999997 75.70699999999995 C 355.14 93.24099999999996 355.14 121.77599999999995 372.65999999999997 139.32499999999996 C 390.27399999999994 156.90999999999997 418.76 156.85799999999995 436.32199999999995 139.32499999999996 z M 270.99999999999994 271 L 240.99999999999994 271 L 240.99999999999994 301 L 270.99999999999994 301 C 279.40099999999995 301 285.99999999999994 294.399 285.99999999999994 286 C 285.99999999999994 277.599 279.40099999999995 271 270.99999999999994 271 z M 270.99999999999994 211 L 240.99999999999994 211 L 240.99999999999994 241 L 270.99999999999994 241 C 279.40099999999995 241 285.99999999999994 234.399 285.99999999999994 226 C 285.99999999999994 217.599 279.40099999999995 211 270.99999999999994 211 z M 255.99999999999994 121 C 181.60099999999994 121 120.99999999999994 181.599 120.99999999999994 256 C 120.99999999999994 330.399 181.60099999999994 391 255.99999999999994 391 C 330.39899999999994 391 390.99999999999994 330.399 390.99999999999994 256 C 390.99999999999994 181.599 330.39899999999994 121 255.99999999999994 121 z M 315.99999999999994 286 C 315.99999999999994 310.898 295.8999999999999 331 270.99999999999994 331 L 270.99999999999994 346 C 270.99999999999994 354.399 264.40099999999995 361 255.99999999999994 361 C 247.59899999999993 361 240.99999999999994 354.399 240.99999999999994 346 L 240.99999999999994 331 L 210.99999999999994 331 C 202.59899999999993 331 195.99999999999994 324.399 195.99999999999994 316 C 195.99999999999994 307.599 202.59899999999993 301 210.99999999999994 301 L 210.99999999999994 211 C 202.59899999999993 211 195.99999999999994 204.399 195.99999999999994 196 C 195.99999999999994 187.599 202.59899999999993 181 210.99999999999994 181 L 240.99999999999994 181 L 240.99999999999994 166 C 240.99999999999994 157.599 247.59899999999993 151 255.99999999999994 151 C 264.40099999999995 151 270.99999999999994 157.599 270.99999999999994 166 L 270.99999999999994 181 C 295.8999999999999 181 315.99999999999994 201.1 315.99999999999994 226 C 315.99999999999994 237.4 311.79999999999995 247.899 304.59999999999997 256 C 311.79999999999995 264.099 315.99999999999994 274.6 315.99999999999994 286 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

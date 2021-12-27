@@ -1,0 +1,67 @@
+<%- include('partials/header') %>
+<section>
+    <div style = "position:relative; left:-100px" class="container mt-5">
+        <h3>PRICE CHART</h3>
+        <br>
+    </div>
+</section>
+
+<section>
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div id="tradingview_49b71"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text">BTCUSDT Chart</span></a> by TradingView</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.widget(
+    {
+    "width": 1300,
+    "height": 500,
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "D",
+    "timezone": "Etc/UTC",
+    "theme": "light",
+    "style": "1",
+    "locale": "in",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_legend": true,
+    "withdateranges": true,
+    "allow_symbol_change": true,
+    "watchlist": [
+      "BINANCE:ETHUSDT",
+      "BINANCE:SHIBUSDT",
+      "BINANCE:ADAUSDT",
+      "BINANCE:DOTUSDT",
+      "BINANCE:SOLUSDT",
+      "BINANCE:DOGEUSDT",
+      "BINANCE:BNBUSDT",
+      "BINANCE:LINKUSDT",
+      "BINANCE:VETUSDT",
+      "BINANCE:MATICUSDT"
+    ],
+    "container_id": "tradingview_49b71"
+  }
+    );
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<%- include('partials/footer') %>
